@@ -1,0 +1,51 @@
+﻿/*Saeed Mirjalili*/
+body{
+    background-color: pink;
+    color: black;
+}
+
+ul li {
+    margin: 10px 0;
+    list-style: none;
+    padding: center;
+}
+
+label {
+    display: inline-block;
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+a {
+    display:inline-block;
+    padding: 12px 20px;
+    background: navy;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+}
+    a:hover {
+        text-decoration: underline;
+    }
+
+table, td, th {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+
+table {
+    margin: 15px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: auto;
+    border: 1;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;  
+}
